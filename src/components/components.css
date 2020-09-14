@@ -2,3 +2,19 @@
   padding-top: 2vh;
   text-align: center;
 }
+.SearchBox{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2%;
+}
+.imageList{
+  margin-top: 20vh;
+  margin-left: 0;
+}
+.ui.active.centered.inline.loader{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}

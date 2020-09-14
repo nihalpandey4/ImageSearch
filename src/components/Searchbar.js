@@ -13,7 +13,7 @@ class Searchbar extends React.Component{
     return(
       <div className="SearchBox" >
         <form onSubmit={this.onSubmitChange}>
-          <div className="ui massive icon input">
+          <div className="ui large icon input">
             <input
               type="text"
               placeholder="Search ..."
