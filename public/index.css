@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  margin-top: 2vh;
+}
+.imageList{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  grid-auto-rows: 10px;
+}
+
+.imageList img{
+  width:350px;
+  border-radius: 2rem;
+}
+
+.SearchBox{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ui.icon.input>input{
+
+  border-radius: 10rem;
+}
