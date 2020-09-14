@@ -3,7 +3,7 @@ import Axios from 'axios';
 const defConfig = Axios.create({
   baseURL:"https://api.unsplash.com",
   headers:{
-     Authorization: "Client-ID MSnW8LaigEr3oXlCm8sQbdFb-B9bIQZNgPE_MdckF2g"
+     Authorization: "Client-ID 49wNRVo1wsP4xoS1xmu3RZs6Kuy7QJnKnAoX0oNVu9k"
   }
 });
 

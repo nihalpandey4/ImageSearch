@@ -1,28 +1,14 @@
 import React from "react";
-import Imagecard from "./Imagecard";
+import Imagecard from './Imagecard';
 
-class ImageList extends React.Component {
-  generateList = (image) => {
-    return <Imagecard src={image.urls.small} alt={image.alt_description} key={image.alt_description} />;
-  };
+class ImageList extends React.Component{
 
-  loading = () => {
-    return (
-      <div className="ui active centered inline loader"></div>
-    );
-  };
+  generateList=(image)=>{
+    return <Imagecard src={image.urls.small} />
+  }
 
-  check = () => {
-    console.log(this.props.images.length);
-    if (this.props.images.length===0) {
-      return this.loading();
-    } else {
-      return this.props.images.map(this.generateList);
-    }
-  };
-
-  render() {
-    return <div className="imageList">{this.check()}</div>;
+  render(){
+    return <div className="imageList" >{this.props.images.map(this.generateList)}</div>;
   }
 }
 

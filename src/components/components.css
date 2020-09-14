@@ -2,19 +2,22 @@
   padding-top: 2vh;
   text-align: center;
 }
-.SearchBox{
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 2%;
-}
 .imageList{
-  margin-top: 20vh;
-  margin-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  grid-auto-rows: 10px;
 }
-.ui.active.centered.inline.loader{
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 40%;
+
+.imageList img{
+  width:350px;
+  border-radius: 2rem;
+}
+
+.SearchBox{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ui.icon.input>input{
+
+  border-radius: 10rem;
 }
