@@ -3,7 +3,7 @@ import Imagecard from "./Imagecard";
 
 class ImageList extends React.Component {
   generateList = (image) => {
-    return <Imagecard src={image.urls.full} alt={image.alt_description} key={image.alt_description} />;
+    return <Imagecard src={image.urls.small} alt={image.alt_description} key={image.alt_description} />;
   };
 
   loading = () => {
