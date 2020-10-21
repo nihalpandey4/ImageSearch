@@ -1,9 +1,9 @@
 .App{
-  padding-top: 2vh;
+  padding-top: 1vh;
   text-align: center;
 }
 .imageList{
-  margin-top: 130px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
   grid-auto-rows: 10px;
@@ -15,10 +15,8 @@
 }
 
 .SearchBox{
-  position :fixed;
-  top:4vh;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 50px;
+  text-align: center;
 }
 .ui.icon.input>input{
 
